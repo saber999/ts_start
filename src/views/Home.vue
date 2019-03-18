@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-    <errTips :errMsg = "msg"></errTips>
+    <!-- <errTips :errMsg = "msg"></errTips> -->
   </div>
 </template>
 
@@ -19,5 +19,8 @@ import errTips from '@/package/errTips.vue';
 })
 export default class Home extends Vue {
   msg:String = 'tesRQtdaaDt'
+  created(){
+    this.$tips('hello',2000)
+  }
 }
 </script>
