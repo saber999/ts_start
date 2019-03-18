@@ -22,6 +22,9 @@ export default class errTips extends Vue {
             this.errMsg = ''
         }, this.duration * 1000)
     }
+    mounted() {
+        console.log(this)
+    }
 }
 </script>
 <style scoped>

@@ -20,7 +20,13 @@ import errTips from '@/package/errTips.vue';
 export default class Home extends Vue {
   msg:String = 'tesRQtdaaDt'
   created(){
-    this.$tips('hello',2000)
+    this.$tips ('helloasdf',2000);
+  }
+  handleClick(){
+    console.log('est')
+  }
+  mounted() {
+    console.log(this)
   }
 }
 </script>

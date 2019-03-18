@@ -30,8 +30,12 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "typings/*.ts",//卸载include和files中似乎一样
     "tests/**/*.ts",
     "tests/**/*.tsx"
+  ],
+  "files": [
+    "typings/errTips.d.ts"
   ],
   "exclude": [
     "node_modules"
